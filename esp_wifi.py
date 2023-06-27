@@ -1,3 +1,10 @@
+# MIT License (MIT)
+# Copyright (c) 2023 Wind-stormger
+# https://opensource.org/licenses/MIT
+
+# Easy way to do WiFi connection, WiFi scan, WiFi AP. Mainly used in ESP32S3, ESP32S2.
+# https://github.com/Wind-stormger/micropython-esp-wifi
+
 import binascii
 import network
 import time

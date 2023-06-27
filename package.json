@@ -1,0 +1,6 @@
+{
+    "urls": [
+      ["esp_wifi.py", "github:Wind-stormger/micropython-esp-wifi/esp_wifi.py"]
+    ],
+    "version": "0.1"
+  }
