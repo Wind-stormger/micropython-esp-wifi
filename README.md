@@ -23,8 +23,8 @@ import esp_wifi
 
 # Simple
 esp_wifi.scan()
-esp_wifi.STA('SSID', 'PASSWORD')
-esp_wifi.AP('SSID', 'PASSWORD')
+esp_wifi.STA('SSID', 'PASSWORD') # Connect WiFi
+esp_wifi.AP('SSID', 'PASSWORD') # WiFi AP
 
 # Full
 esp_wifi.scan(ssid=None, loop=None, txpower=None)
