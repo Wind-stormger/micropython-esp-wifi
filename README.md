@@ -16,6 +16,18 @@ mpremote mip install github:Wind-stormger/micropython-esp-wifi
 
 # Use Cases
 
-TODO
+```py
+import esp_wifi
+
+# Simple
+esp_wifi.scan()
+esp_wifi.STA('SSID', 'PASSWORD')
+esp_wifi.AP('SSID', 'PASSWORD')
+
+# Full
+esp_wifi.scan(ssid=None, loop=None, txpower=None)
+esp_wifi.STA(ssid='SSID', key='PASSWORD', txpower=None, wait=10, ip=None, subnet=None, gateway=None, dns=None)
+esp_wifi.AP(ssid='SSID', key='PASSWORD', authmode=3, txpower=None, channel=11, hidden=False, ip=None, subnet=None, gateway=None,
+       dns=None)
 
 ```
