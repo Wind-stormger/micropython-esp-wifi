@@ -14,6 +14,8 @@ Or from mpremote via
 mpremote mip install github:Wind-stormger/micropython-esp-wifi
 ```
 
+Only `esp_wifi.py` is necessary.
+
 # Use Cases
 
 ```py
